@@ -1,5 +1,6 @@
 .container {
     margin-top: 45px;
+    margin-bottom: 65px;
 }
 
 img {
@@ -11,7 +12,13 @@ img {
 }
 
 .container-grid {
-    display: inline-grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.port-cards {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
 }
