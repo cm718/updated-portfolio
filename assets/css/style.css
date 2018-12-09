@@ -1,0 +1,17 @@
+.container {
+    margin-top: 45px;
+}
+
+img {
+    width: 300px;
+}
+
+.paragraph {
+    margin-top: 10px;
+}
+
+.container-grid {
+    display: inline-grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 25px;
+}
