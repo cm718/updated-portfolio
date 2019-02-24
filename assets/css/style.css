@@ -4,7 +4,7 @@
     color: white;
 }
 
-body {
+html, body {
     background: #f85032;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #e73827, #f85032);
@@ -46,6 +46,7 @@ img {
 .paragraph {
     font-size: 1.2em;
     margin-top: 10px;
+    line-height: 1.6em;
 }
 
 .container-grid {
@@ -63,4 +64,11 @@ img {
 a:hover {
     text-decoration: none;
     color: #000066;
+}
+
+i.fab,
+i.fas,
+a,
+div.card-header {
+    color: #f85032;
 }
