@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Patua+One');
+
+* {
+    color: white;
+}
+
+body {
+    background: #f85032;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #e73827, #f85032);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #e73827, #f85032);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Patua One", sans-serif;
+    color: white;
+}
+
+
+.navbar-dark .navbar-brand {
+    font-size: 2em;
+    font-family: "Pacifico", serif;
+    color: white;
+}
+
 .container {
     margin-top: 45px;
     margin-bottom: 65px;
@@ -11,9 +40,11 @@ img {
 .square_image {
     width: 250px;
     height: 240px;
+    border-radius: 50%;
 }
 
 .paragraph {
+    font-size: 1.2em;
     margin-top: 10px;
 }
 
@@ -27,4 +58,9 @@ img {
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000066;
 }
