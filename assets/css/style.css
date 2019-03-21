@@ -78,3 +78,47 @@ i.fas,
 a {
     color: #f85032;
 }
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper > h1 {
+    padding: 20px;
+    margin: 40px;
+    font-size: 2.5rem;
+}
+
+.wrapper > p {
+    font-size: 1.5rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+
+.share > button {
+    background-color: #f85032;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 5px;
+    width: 130px;
+}
+
+.share > button > a {
+    color: #fff;
+}
+
+i.fa-envelope:before {
+    color: #fff;
+}
+
+i.fa-linkedin:before {
+    color: white;
+}
+
+i.fa-github:before {
+    color: white;
+}
